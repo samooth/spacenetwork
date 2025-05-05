@@ -1,15 +1,15 @@
-# @hyperswarm/network
+# spacenetwork
 
 The low level networking guts of the Hyperswarm stack.
 
 ```
-npm install @hyperswarm/network
+npm install spacenetwork
 ```
 
 ## Usage
 
 ``` js
-const network = require('@hyperswarm/network')()
+const network = require('spacenetwork')()
 
 const nw = network()
 

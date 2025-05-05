@@ -2,7 +2,7 @@
 const { promisify } = require('util')
 const net = compatifyTcp(require('net'))
 const UTP = require('utp-native')
-const dht = require('@hyperswarm/dht')
+const dht = require('spacedht')
 const once = require('events.once')
 const win32 = process.platform === 'win32'
 
